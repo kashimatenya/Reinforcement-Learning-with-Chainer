@@ -1,0 +1,20 @@
+{
+  "gamma":	0.99,
+  
+  "epsilon":{
+    "upper":	1,
+    "lower":	0.05,
+    "decay":	1e-4,
+    "delay":	0
+  },
+
+  "optimizer":{"alpha":	1e-4, "epsilon":	1e-8},
+
+  "memory_size":	50000,
+  "replay_start_memory_size":	10000,
+  "replay_count":	32,
+ 
+  "training_interval_steps": 16,
+
+  "tau":	1e-2
+}

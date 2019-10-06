@@ -1,0 +1,13 @@
+{
+  "gamma":	0.99,
+
+  "optimizer":  {"alpha":2e-4, "eps":1e-8},
+    
+  "V_loss_coef":  1,
+  "pi_loss_coef": 0.5,
+  "entropy_coef": 1e-2,
+
+  "memory_size":  128,
+
+  "batch_size":  128
+}
